@@ -1,8 +1,8 @@
 # CRUD Board Project
 KH 정보교육원 팀프로젝트
-Collaborator : 이주형, 권태혁, 손동준, 박성훈
-FrontEnd : 이주형
-BackEnd : 권태혁, 손동준, 박성훈
+<b>Collaborator : </b>이주형, 권태혁, 손동준, 박성훈 </br>
+<b>FrontEnd : </b>이주형 </br>
+<b>BackEnd : </b>권태혁, 손동준, 박성훈 </br>
 ## Project description
 <b>✔ 프로젝트 명 :</b> CRUD Board </br>
 <b>✔ 목적 :</b> 초보 개발자로서 CRUD기능이 있는 게시판을 A-Z까지 만들어보자. </br>
