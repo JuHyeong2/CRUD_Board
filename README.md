@@ -1,5 +1,5 @@
 # CRUD Board Project
-KH 정보교육원 팀프로젝트
+KH 정보교육원 팀프로젝트 </br>
 <b>Collaborator : </b>이주형, 권태혁, 손동준, 박성훈 </br>
 <b>FrontEnd : </b>이주형 </br>
 <b>BackEnd : </b>권태혁, 손동준, 박성훈 </br>
