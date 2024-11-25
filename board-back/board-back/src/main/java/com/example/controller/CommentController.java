@@ -1,6 +1,4 @@
 package com.example.controller;
-import java.sql.Date;
-
 import com.example.model.vo.Comment;;
 public class CommentController {
     private Comment cm = new Comment();

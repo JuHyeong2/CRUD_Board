@@ -1,13 +1,11 @@
 package com.example.controller;
-import static jdbc.db.stmt;
-
-import java.sql.Date;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-
-import javax.sql.DataSource;
-
 import com.example.model.vo.User;
+
+import javax.sql.*;
+import java.sql.*;
+import java.sql.Date;
+
+import static jdbc.db.stmt;
 
 public class UserController {
     private final DataSource dataSource;
