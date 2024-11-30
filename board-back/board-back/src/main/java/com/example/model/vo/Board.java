@@ -3,28 +3,28 @@ package com.example.model.vo;
 import java.util.Date;
 
 public class Board {
-    private int no, view;
-    private String title, detail, userId;
-    private Date time;
+    private int boardNo, view;
+    private String boardtitle, boardDetail, userId;
+    private Date boardTime;
 
     public Board() {
     }
 
     public Board(int no, int view, String title, String detail, String userId, Date time) {
-        this.no = no;
+        this.boardNo = no;
         this.view = view;
-        this.title = title;
-        this.detail = detail;
+        this.boardtitle = title;
+        this.boardDetail = detail;
         this.userId = userId;
-        this.time = time;
+        this.boardTime = time;
     }
 
-    public int getNo() {
-        return no;
+    public int getBoardNo() {
+        return boardNo;
     }
 
-    public void setNo(int no) {
-        this.no = no;
+    public void setBoardNo(int no) {
+        this.boardNo = no;
     }
 
     public int getView() {
@@ -35,20 +35,20 @@ public class Board {
         this.view = view;
     }
 
-    public String getTitle() {
-        return title;
+    public String getBoardTitle() {
+        return boardtitle;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setBoardTitle(String title) {
+        this.boardtitle = title;
     }
 
-    public String getDetail() {
-        return detail;
+    public String getBoardDetail() {
+        return boardDetail;
     }
 
-    public void setDetail(String detail) {
-        this.detail = detail;
+    public void setBoardDetail(String detail) {
+        this.boardDetail = detail;
     }
 
     public String getUserId() {
@@ -59,11 +59,11 @@ public class Board {
         this.userId = userId;
     }
 
-    public Date getTime() {
-        return time;
+    public Date getBoardTime() {
+        return boardTime;
     }
 
-    public void setTime(Date time) {
-        this.time = time;
+    public void setBoardTime(Date time) {
+        this.boardTime = time;
     }
 }

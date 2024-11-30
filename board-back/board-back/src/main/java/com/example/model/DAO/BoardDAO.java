@@ -28,9 +28,9 @@ public class BoardDAO {
             while (rs.next()) {
                 Board board = new Board();
                 board.setBoardNo(rs.getInt("board_no"));
-                board.setTitle(rs.getString("board_title"));
+                board.setBoardTitle(rs.getString("board_title"));
                 board.setBoardDetail(rs.getString("board_detail"));
-                board.setBoardTime(rs.getTimestamp("board_time").toLocalDateTime());
+                board.setBoardTime(rs.getTimestamp("board_time"));
                 boards.add(board);
             }
         } catch (SQLException e) {
@@ -54,7 +54,7 @@ public class BoardDAO {
                     board.setBoardNo(rs.getInt("board_no"));
                     board.setBoardTitle(rs.getString("board_title"));
                     board.setBoardDetail(rs.getString("board_detail"));
-                    board.setBoardTime(rs.getTimestamp("board_time").toLocalDateTime());
+                    board.setBoardTime(rs.getTimestamp("board_time"));
                 }
             }
         } catch (SQLException e) {
